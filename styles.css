@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Koulen&family=Lobster&family=Nanum+Gothic&family=Noto+Sans&family=Open+Sans&family=PT+Sans+Narrow&family=Playfair+Display:ital@1&family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Hind+Vadodara:wght@300;400&family=Koulen&family=Lobster&family=Nanum+Gothic&family=Noto+Sans&family=Open+Sans&family=PT+Sans+Narrow&family=Playfair+Display:ital@1&family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Hind+Vadodara:wght@300;400&family=Koulen&family=Lobster&family=Nanum+Gothic&family=Noto+Sans&family=Open+Sans&family=PT+Sans+Narrow&family=Playfair+Display:ital@0;1&family=Poiret+One&display=swap');
+a{
+    text-decoration: none;
+    color: black;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Hind Vadodara;
+}
+
+
+
+/* MEDIA 1440 */
+@media (min-width: 1440px){
+    /* NAV */
+.title h1{
+    font-family: Poiret One;
+    font-size: 50px;
+}
+.title{
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.item-container{
+    display: flex;
+    list-style: none;
+}
+.item-container li{
+    margin: 10px 30px;
+    font-size: 22px;
+    font-weight: 400;
+}
+/* NAV FINALIZADO */
+.subtitle{
+    font-family: Playfair Display;
+    font-size: 40px;
+    margin: 1rem 0 0 5rem;
+    font-weight: 200;
+
+}
+
+/* SECTION 1 */
+.s1-container{
+    margin-top: 8rem;
+    display: flex;
+}
+.s1-container img{
+    margin: 0 5rem;
+    width: 900px;
+}
+.slot-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.slot-text h1{
+    font-family: Poiret One;
+    font-size: 40px;
+    margin-bottom: 0.5rem;
+}
+.slot-text h4{
+    font-size: 25px;
+    font-family: Playfair Display;
+    font-weight: 300;
+}
+.slot-text a{
+    border: 1px solid black;
+    margin-top: 1rem;
+    font-size: 20px;
+    padding: 0.5rem;
+    background-color: white;
+    font-family: Playfair Display;
+}
+.slot-text a:hover{
+    background-color: #343a40;
+    font-family: Playfair Display;
+    color: white;
+    
+}
+
+
+
+
+
+
+
+
+
+
+}
