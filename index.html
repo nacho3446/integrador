@@ -6,29 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles.css">
     <link rel="icon" href="/section.assets/icon.png">
-    <title>Giovanni</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>GIOVANNI</title>
 </head>
 <body>
+    <div class="login-container">
+        <a href="/login.html" target="_blank">Log In</a>
+        <a href="/register.html" target="_blank">Register</a>
+    </div>
     <main>
-        <header>
+        <div class="nav-responsive">
+            <h1>GIOVANNI</h1>
+            <ul>
+                <li><a href="#"><i class="fa-solid fa-user"></i></a></li>
+            </ul>
+
+        </div>
+        <header class="header">
             <div class="title">
                 <h1>GIOVANNI</h1>               
             </div>
         <nav>
             <div class="container">
                 <ul class="item-container">
-                    <li><a href="#">FRAGANCE</a></li>
-                    <li><a href="#">INICIO</a></li>
-                    <li><a href="#">ISOLATE</a></li>
+                    <li><a href="#fragance">FRAGANCE</a></li>
+                    <li><a href="#contacto">CONTACTO</a></li>
+                    <li><a href="#isolate">ISOLATE</a></li>
                 </ul>
             </div>
         </nav>
      </header>
         <section>
+        <div class="subtitle">
+            <h3>WHAT'S NEW</h3>
+        </div>
 
-            <h3 class="subtitle">WHAT'S NEW</h3>
-
-            <div class="s1-container">
+            <div class="s1-container s2-container">
                 <img src="/section.assets/s1.jpg" alt="">
             <div class="slot-text">
                 <h1>FEM GIOVANNI</h1>
@@ -42,14 +55,14 @@
                 <div class="slot-text">
                     <h1>GIOVANNI</h1>
                     <h4>NUESTROS LOCALES</h4>
-                    <a href="#">UBICATION</a>
+                    <a href="#">UBICACIÓN</a>
                 </div>                
                 <img src="/section.assets/s2.jpg" alt="">
             
             </div>
         </section>
-        <section>
-            <div class="s1-container">
+        <section id="fragance">
+            <div class="s1-container s2-container">
                 <img src="/section.assets/s3.jpg" alt="">
             <div class="slot-text">
                 <h1>FRAGANCE GIOVANNI</h1>
@@ -67,11 +80,11 @@
                 <img src="/section.assets/s4.jpg" alt="">           
             </div>
         </section>
-        <section>
-            <div class="s1-container">
+        <section id="isolate">
+            <div class="s1-container s2-container">
                 <img src="/section.assets/s5.jpg" alt="">
             <div class="slot-text">
-                <h1>ISOLATE COLLECTION</h1>
+                <h1>ISOLATE</h1>
                 <h4>DESCUBRE LA COLECCIÓN</h4>
                 <a href="#">Isolate Shop</a>
             </div>
@@ -87,7 +100,7 @@
             </div>
         </section>      
     </main>
-    <footer>
+    <footer id="contacto">
         <div class="footer-container">
         <ul>
             <li>ATENCIÓN AL CLIENTE</li>
@@ -102,7 +115,7 @@
         <ul>
             <li>ENVÍOS Y DEVOLUCIÓN</li>
             <li><a href="">Envíos</a></li>
-            <li><a href="">eguimiento de tu pedido</a></li>
+            <li><a href="">Seguimiento de tu pedido</a></li>
             <li><a href="">Devoluciones y cambios</a></li>
         </ul>
         <ul>

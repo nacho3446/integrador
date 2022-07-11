@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Koulen&family=Lobster&family=Nanum+Gothic&family=Noto+Sans&family=Open+Sans&family=PT+Sans+Narrow&family=Playfair+Display:ital@1&family=Poiret+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Hind+Vadodara:wght@300;400&family=Koulen&family=Lobster&family=Nanum+Gothic&family=Noto+Sans&family=Open+Sans&family=PT+Sans+Narrow&family=Playfair+Display:ital@1&family=Poiret+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Hind+Vadodara:wght@300;400&family=Koulen&family=Lobster&family=Nanum+Gothic&family=Noto+Sans&family=Open+Sans&family=PT+Sans+Narrow&family=Playfair+Display:ital@0;1&family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=EB+Garamond&family=Hind+Vadodara:wght@300;400&family=Koulen&family=Lobster&family=Nanum+Gothic&family=Noto+Sans&family=Open+Sans&family=PT+Sans+Narrow&family=Playfair+Display:ital@0;1&family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=EB+Garamond&family=Hind+Vadodara:wght@300;400&family=Koulen&family=Lobster&family=Nanum+Gothic&family=Noto+Sans&family=Open+Sans&family=PT+Sans+Narrow&family=Playfair+Display:ital@0;1&family=Poiret+One&display=swap');
 a{
     text-decoration: none;
     color: black;
@@ -15,8 +17,148 @@ a{
 header{
     width: 100%;
 }
+html {
+    scroll-behavior: smooth;
+  }
+/* MEDIA 2560px */
+@media(min-width: 1440px){
+    .nav-responsive{
+        display: none;
+    }
+    /* NAV */
+.title h1{
+    font-family: Poiret One;
+    font-size: 55px;
+}
+.title{
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.container a{
+    font-size: 30px;
+}
+.item-container{
+    display: flex;
+    list-style: none;
+}
+.item-container li{
+    margin: 10px 30px;
+    font-size: 22px;
+    font-weight: 400;
+}
+/* NAV FINALIZADO */
+/* INICIO SESION */
+.login-container{
+    display: flex;
+    justify-content: flex-end;
+    margin: 2rem 3rem;
+    gap: 1rem;
+}
+.login-container a{
+    font-size: 20px;
+    border: solid 1px black;
+    border-radius: 2px;
+    padding: 5px 10px;
+}
+.login-container a:hover{
+    background-color: #343a40;
+    color: white;
+}
+
+/* INICIO SESION FINALIZADO */
+
+.subtitle h3{
+    font-family: Playfair Display;
+    font-size: 35px;
+    font-weight: 200;
+    margin-left: 10rem;
+    text-decoration: underline #2a9d8f;
+}
+
+/* SECTION 1 */
+.s1-container{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.s1-container img{
+    
+    width: 70%;
+    height: 600px;
+    margin: 0 3rem;
+   
+    
+}
+.s2-container img{
+
+    width: 70%;
+    height: 600px;
+    margin: 0 3rem;
+    
+    
+
+}
+.slot-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 30%;
+}
+.slot-text h1{
+    font-family: Poiret One;
+    font-size: 50px;
+    margin-bottom: 0.5rem;
+}
+.slot-text h4{
+    font-size: 30px;
+    font-family: Playfair Display;
+    font-weight: 300;
+}
+.slot-text a{
+    border: 1px solid black;
+    border-radius: 2px;
+    margin-top: 1rem;
+    font-size: 25px;
+    padding: 0.5rem;
+    background-color: white;
+    font-family: Playfair Display;
+}
+.slot-text a:hover{
+    background-color: #343a40;
+    font-family: Playfair Display;
+    color: white;
+    
+}
+/* SECTIONS TERMINADOS */
+/* FOOTER */
+.footer-container{
+    border-top: 1px solid black;
+    display: flex;
+    gap: 100px;
+    margin-left: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+.footer-container a{
+
+    font-family: EB Garamond;
+}
+}
+/* FOOTER TERMINADO */
+
 /* MEDIA 1440 */
-@media (min-width: 1440px){
+@media (max-width: 1440px){
+    .nav-responsive{
+        display: none;
+    }
     /* NAV */
 .title h1{
     font-family: Poiret One;
@@ -41,11 +183,29 @@ header{
     font-weight: 400;
 }
 /* NAV FINALIZADO */
-.subtitle{
+/* INICIO SESION */
+.login-container{
+    display: flex;
+    justify-content: flex-end;
+    margin: 2rem 3rem;
+    gap: 1rem;
+}
+.login-container a{
+    border: solid 1px black;
+    border-radius: 2px;
+    padding: 5px 10px;
+}
+.login-container a:hover{
+    background-color: #343a40;
+    color: white;
+}
+/* INICIO SESION FINALIZADO */
+
+.subtitle h3{
     font-family: Playfair Display;
-    font-size: 40px;
-    margin: 1rem 0 0 3rem;
+    font-size: 30px;
     font-weight: 200;
+    margin-left: 10rem;
 }
 
 /* SECTION 1 */
@@ -56,8 +216,21 @@ header{
     align-items: center;
 }
 .s1-container img{
-    width: 900px;
+    
+    width: 70%;
     height: 455px;
+    margin: 0 1rem;
+   
+    
+}
+.s2-container img{
+
+    width: 70%;
+    height: 455px;
+    margin: 0 1rem;
+    
+    
+
 }
 .slot-text{
     display: flex;
@@ -65,7 +238,7 @@ header{
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 500px;
+    width: 30%;
 }
 .slot-text h1{
     font-family: Poiret One;
@@ -92,22 +265,256 @@ header{
     color: white;
     
 }
-/* SECTION 1 TERMINADO */
+/* SECTIONS TERMINADOS */
+/* FOOTER */
 .footer-container{
+    border-top: 1px solid black;
     display: flex;
     gap: 100px;
     margin-left: 2rem;
     margin-top: 5rem;
     margin-bottom: 2rem;
 }
-
-
-
-
-
-
-
-
-
-
+.footer-container a{
+    font-family: EB Garamond;
 }
+}
+/* FOOTER TERMINADO */
+/* MEDIA 1440 TERMINADO */
+
+
+
+
+
+/* MEDIA 1024 */
+@media (max-width: 1024px){
+    .nav-responsive{
+        display: none;
+    }
+    /* INICIO SESION */
+.login-container{
+    display: flex;
+    justify-content: flex-end;
+    margin: 2rem 3rem;
+}
+.login-container a{
+    border: solid 1px black;
+    border-radius: 2px;
+    padding: 5px 10px;
+}
+.login-container a:hover{
+    background-color: #343a40;
+    color: white;
+}
+/* INICIO SESION FINALIZADO */
+    /* HEADER */
+    .title h1{
+        font-family: Poiret One;
+        font-size: 40px;
+    }
+    .title{
+        margin-top: 1.5rem;
+        display: flex;
+        justify-content: center;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+    }
+    .item-container{
+        display: flex;
+        list-style: none;
+    }
+    .item-container li{
+        margin: 10px 30px;
+        font-size: 22px;
+        font-weight: 400;
+    }
+    /* HEADER FINALIZADO */
+    .subtitle h3{
+        font-family: Playfair Display;
+        font-size: 30px;
+        margin-left: 1rem;
+        font-weight: 200;
+    }
+    
+    /* SECTION 1 */
+    .s1-container{
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .s1-container img{
+        width: 100%px;
+        height: 355px;
+    }
+    .s2-container img{
+        
+        height: 355px;
+    }
+    .slot-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 300px;
+    }
+    .slot-text h1{
+        font-family: Poiret One;
+        font-size: 40px;
+        margin-bottom: 0.5rem;
+    }
+    .slot-text h4{
+        font-size: 25px;
+        font-family: Playfair Display;
+        font-weight: 300;
+    }
+    .slot-text a{
+        border: 1px solid black;
+        border-radius: 2px;
+        margin-top: 1rem;
+        font-size: 20px;
+        padding: 0.5rem;
+        background-color: white;
+        font-family: Playfair Display;
+    }
+    .slot-text a:hover{
+        background-color: #343a40;
+        font-family: Playfair Display;
+        color: white;
+        
+    }
+    /* SECTIONS */
+    .footer-container{
+        border-top: 1px solid black;
+        display: flex;
+        gap: 100px;
+        margin-left: 2rem;
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
+}
+/* MEDIA 1024 FINALIZADO */
+
+
+
+
+
+
+/* MEDIA 768 */
+@media (max-width: 768px){
+    .nav-responsive{
+        display: none;
+    }
+    .container{
+        margin-bottom: 3rem;
+    }
+    
+    /* SECTIONS */
+    .s1-container.s2-container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .s1-container{
+        flex-direction: column;
+        
+    }
+    .s1-container img{
+        width: 100%;
+        height: 350px;
+    }
+    .s2-container img{
+        
+        height: 350px;
+    }
+    .slot-text{
+        height: 200px;
+        margin-bottom: 2rem;
+        width: 100%;
+    }
+    .slot-text h1{
+        font-size: 25px;
+    }
+    .slot-text h4{
+        font-size: 20px;
+    }
+    .slot-text a{
+        font-size: 10px;
+    }
+    /* SECTIONS FINALIZADO */
+    /* FOOTER */
+    .footer-container{
+        border-top: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+        margin-left: 2rem;
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+        
+    }
+    /* FOOTER FINALIZADO */
+}
+/* MEDIA 768 FINALIZADO */
+
+
+
+/* MEDIA 425 */
+@media(max-width: 425px){
+    .header{
+        display: none;
+    }
+    .login-container{
+        display: none;
+    }
+    .subtitle{
+        display: none;
+    }
+
+    .nav-responsive{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 1rem;
+        align-items: center;
+    }
+    .nav-responsive h1{
+        font-family: Cinzel;
+        font-size: 20px;
+    }
+    .slot-text{
+        height: 100px;
+    }
+    .s1-container img{
+        height: 200px;
+        width: 100%;
+       
+    }
+    .s2-container img{
+
+        height: 200px;
+    }
+    .footer-container{
+        border-top: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+        margin-left: 2rem;
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+        
+    }
+#contacto{
+    width: 100%;
+}
+}
+
+
+
+
+
+
+
+
+
